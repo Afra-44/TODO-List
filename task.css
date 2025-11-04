@@ -1,0 +1,43 @@
+.task{
+     margin: 0 1em ;
+    border: 2px solid white ;
+    min-width:500px;
+    
+}
+.newtask{
+    display: flex;
+ background-color: rgba(26, 114, 86, 0.527);
+ margin: 2em;   
+}
+.newtask button{
+ border-radius: 0%;
+ background-color: rgba(140, 148, 216, 0.459);
+}
+.tasks{
+    background-color: aliceblue;
+    margin: 2em;
+    padding: 2px 2vw;
+   
+    border-radius: 1em;
+    box-shadow: inset 2px 2px grey;
+     display:none;
+}
+.added{
+    background-color: aliceblue;
+    margin:1em ;
+    box-shadow: 1px 2px 4px grey;
+    height: 3em;
+  display: flex;
+align-items: center;
+  justify-content: space-between;
+}
+
+.del{
+   border: 1px solid ;
+   border-radius: 4px;
+   background-color: rgba(140, 148, 216);
+   
+}
+.completed{
+    text-decoration: line-through;
+}
